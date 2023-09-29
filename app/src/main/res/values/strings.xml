@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Detail</string>
+    <string name="tab_text_1">Home</string>
+    <string name="tab_text_2">Profile</string>
+    <string name="tab_text_3">Setting</string>
+    <string name="content_tab_home">Welcome Home</string>
+    <string name="content_tab_profile">Change your Profile here</string>
+    <string name="content_tab_text">This is Tab %1$d</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="TabLayoutTest">MyApp</string>
+    <string name="back_button">Back Button</string>
+    <string name="UserName">UserName</string>
+    <string name="Nama">Nama</string>
+</resources>
