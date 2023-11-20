@@ -2,7 +2,7 @@ package com.example.tablayouttest
 
 import com.google.gson.annotations.SerializedName
 
-data class Response(
+data class IndividualResponse(
 
 	@field:SerializedName("gists_url")
 	val gistsUrl: String? = null,

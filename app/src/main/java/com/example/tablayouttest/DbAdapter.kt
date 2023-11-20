@@ -9,8 +9,8 @@ import com.example.tablayouttest.IndividualResponse
 import com.example.tablayouttest.R
 import org.jetbrains.annotations.NotNull
 
-class ListBedebah(private val dataSet: List<IndividualResponse>, private val onClickListener: (IndividualResponse) -> Unit) :
-    RecyclerView.Adapter<ListBedebah.ViewHolder>(){
+class DbAdapter(private val dataSet: List<IndividualResponse>, private val onClickListener: (IndividualResponse) -> Unit) :
+    RecyclerView.Adapter<DbAdapter.ViewHolder>(){
 
     class ViewHolder(view: View, clickAtPosition: (Int) -> Unit): RecyclerView.ViewHolder(view){
         val Name : TextView = view.findViewById(R.id.Name)
@@ -32,11 +32,11 @@ class ListBedebah(private val dataSet: List<IndividualResponse>, private val onC
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+
         val data = dataSet[position]
         holder.Name.text = data.login.toString()
         Glide.with(holder.picture.context).load(data.avatarUrl).into(holder.picture)
     }
 
     override fun getItemCount() = dataSet.size
-
 }

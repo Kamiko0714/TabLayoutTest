@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Detail</string>
-    <string name="tab_text_1">Home</string>
-    <string name="tab_text_2">Profile</string>
+    <string name="app_name">Dewa App</string>
+    <string name="tab_text_1">Following</string>
+    <string name="tab_text_2">Followers</string>
     <string name="tab_text_3">Setting</string>
     <string name="content_tab_home">Welcome Home</string>
     <string name="content_tab_profile">Change your Profile here</string>
@@ -11,4 +11,5 @@
     <string name="back_button">Back Button</string>
     <string name="UserName">UserName</string>
     <string name="Nama">Nama</string>
+    <string name="dark_mode">Hitam Gelap</string>
 </resources>

@@ -2,7 +2,7 @@ package com.example.tablayouttest
 
 import com.google.gson.annotations.SerializedName
 
-data class Response2(
+data class SearchResponse(
 
 	@field:SerializedName("total_count")
 	val totalCount: Int? = null,
@@ -11,7 +11,7 @@ data class Response2(
 	val incompleteResults: Boolean? = null,
 
 	@field:SerializedName("items")
-	val items: List<ItemsItem?>? = null
+	val items: List<IndividualResponse?>? = null
 )
 
 data class ItemsItem(
